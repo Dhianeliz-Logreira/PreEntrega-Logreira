@@ -1,0 +1,23 @@
+.card{
+    width: 250px;
+    margin: 10px 70px;
+    margin-bottom: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ECF2FF ;
+    text-align: center;
+}
+
+
+.card .link{
+    text-decoration: none;
+}
+
+.card .titulo{
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+
+
