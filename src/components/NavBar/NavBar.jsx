@@ -6,10 +6,8 @@ const NavBar = () => {
   return (
     <section id='nav-bar'>
       <Link to="/" className='title'>
-        <img src="https://cdn-icons-png.flaticon.com/512/7057/7057651.png" alt="" />
-       <p>EL CEMENTERIO DE LIBROS</p>
+      <p>EL CEMENTERIO DE LIBROS</p>
       </Link>
-
       <ul>
         <li>
           <Link to="/categorias/juveniles">JUVENILES</Link>
@@ -20,6 +18,7 @@ const NavBar = () => {
       </ul>
       <CartWidget />
     </section>
+
   );
 };
 

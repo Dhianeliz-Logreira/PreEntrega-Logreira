@@ -1,19 +1,15 @@
 import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
 import NavBar from "./components/NavBar/NavBar";
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
-import ItemCount from "./components/ItemCount/ItemCount";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Carrito from "./components/Carrito/Carrito";
 import { CartProvider } from "./contexto/CartContext";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Checkout from "./components/Checkout/Checkout";
 
-
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
-
   return (
     <BrowserRouter>
     <CartProvider>

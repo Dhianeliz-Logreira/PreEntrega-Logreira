@@ -9,7 +9,6 @@
     justify-content: space-between;
     align-items: center;
     font-size: 15px;
-  
 }
 
 .botones button {
@@ -17,7 +16,7 @@
     height: 30px;
     color: #19191a;
     background-color: #53565b;
-    border-radius: 15px;
+    border-radius: 10px;
     font-weight: bold;
     border: none;
 }
@@ -30,5 +29,7 @@ button:hover {
     padding: 10px 0;
     border-radius: 10px;
     background-color: #3887BE;
+    font-weight: bold;
     color: white;
+    border: none;
 }

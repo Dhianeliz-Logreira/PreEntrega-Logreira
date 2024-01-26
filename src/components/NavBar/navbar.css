@@ -11,14 +11,11 @@
     padding: 0 40px;
     text-decoration: none;
     color: black;
-    font-size: 15px;
+    font-size: 25px;
+    padding-top: 15px;
 
 }
 
-#nav-bar img {
-    width: 70px;
-    height: 80px;
-}
 
 #nav-bar ul {
     padding: 0 10px;

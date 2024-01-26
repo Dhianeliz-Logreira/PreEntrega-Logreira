@@ -5,9 +5,11 @@ import { DotLoader } from "react-spinners"
 import { collection, getDocs, query, where } from "firebase/firestore"
 import db from "../../db/db"
 
+import "./itemListContainer.css"
+
 export const ItemListContainer = ({ greeting }) => {
   const [productos, setProductos] = useState([]);
-  const [cargando, setCargando] = useState(true)
+  const [cargando, setCargando] = useState(true);
 
   const { categoria } = useParams();
 
@@ -39,17 +41,18 @@ export const ItemListContainer = ({ greeting }) => {
   return (
     <>
       {cargando ? (
-
-        <DotLoader color="#a873dd" />
+        <div className="cargando">
+          <DotLoader color="#a873dd" />
+        </div>
       ) : (
-        <div>
+        <div className="item-list-container">
           <ItemList productos={productos} />
         </div>
 
       )}
     </>
-  )
-}
+  );
+};
 
 export default ItemListContainer;
 
